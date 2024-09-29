@@ -17,7 +17,7 @@ O nosso projeto é um site dedicado a colecionadores e intusiastas de disco de v
 
 ## Professor
 
-Amália Soares Vieira de Vasconcelos
+- Amália Soares Vieira de Vasconcelos
 
 ## Instruções de utilização
 
