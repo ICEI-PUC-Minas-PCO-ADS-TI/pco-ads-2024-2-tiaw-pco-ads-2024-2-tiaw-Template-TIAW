@@ -10,10 +10,10 @@ O nosso projeto é um site dedicado a colecionadores e intusiastas de disco de v
 
 ## Integrantes
 
-Guilherme de Assis Thiebaut
-Juan Luciano Cunha da Silva
-Lilianne Patrícia Soares Maia
-Tatiane de Miranda Mares Oliveira
+- Guilherme de Assis Thiebaut
+- Juan Luciano Cunha da Silva
+- Lilianne Patrícia Soares Maia
+- Tatiane de Miranda Mares Oliveira
 
 ## Professor
 
