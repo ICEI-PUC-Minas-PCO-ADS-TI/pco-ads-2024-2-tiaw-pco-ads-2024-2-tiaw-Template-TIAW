@@ -1,25 +1,23 @@
-# Nome do projeto
+Discô
 
 `CURSO: Análise e Desenvolvimento de Sistemas`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
-`Xº semestre/ANO`
+`2º semestre/2024`
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+O nosso projeto é um site dedicado a colecionadores e intusiastas de disco de vinil, que busca facilitar a organização da coleção de discos de cada um.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+Guilherme de Assis Thiebaut
+Juan Luciano Cunha da Silva
+Lilianne Patrícia Soares Maia
+Tatiane de Miranda Mares Oliveira
 
 ## Professor
 
-* Nome completo do(a) professor(a)
+Amália Soares Vieira de Vasconcelos
 
 ## Instruções de utilização
 
