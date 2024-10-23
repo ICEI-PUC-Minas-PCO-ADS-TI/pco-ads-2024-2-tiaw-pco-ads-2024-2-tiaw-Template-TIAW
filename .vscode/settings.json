@@ -1,6 +1,16 @@
 {
-    "files.watcherExclude": {
-        "**/Icon?": true
-    },
-    "liveServer.settings.port": 5501
+    "banners" : [
+        {
+            "id": 1,
+            "descricao" : "Transforme sua coleção em uma obra de arte.",
+            "imagem" : "banner_1.webp"
+        },
+        {
+            "id": 2,
+            "descricao" : "O vinil é eterno, assim como sua paixão.",
+            "imagem" : "banner_2.webp"
+        },
+        
+    ]
 }
+
