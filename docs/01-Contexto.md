@@ -1,6 +1,11 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O projeto do site **DISCÔ** surge em um contexto do crescente interesse pelo colecionismo de discos de vinil, um hobby que tem ganhado popularidade
+nos últimos anos. Com o aumento da demanda por discos de vinil, tanto novos quantos usados, colecionadores enfrentam desafios na busca por itens 
+raros, na troca de informações e na interação com outros entusiastas.
+O mercado de discos de vinil tem experimentado um renascimento, impulsionado pela nostalgia e pela busca por uma experiência
+auditiva mais autêntica. No entanto, a falta de uma plataforma dificulta a comunicação e a troca de informações entre colecionadores,
+resultando em uma comunidade fragmentada.
 
 ## Problema
 Aqui, a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.
