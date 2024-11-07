@@ -61,8 +61,38 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo de um site dedicado a colecionadores de vinil é bastante diversificado, abrangendo diferentes faixas etárias
+e perfis de interesse.
+
+1. ### **Jovens Adultos:**
+   - **Entusiastas da Música:** Muitos jovens adultos estão redescobrindo o vinil como uma forma autêntica de apreciar
+     música, valorizando a qualidade sonora e a experiência tátil de manusear discos.
+   - **Colecionadores Iniciantes:** Pessoas que estão começando suas coleções e procuram orientação sobre como encontrar,
+     comprar e cuidar dos discos de vinil.
+
+2. ### **Colecionadores Experientes:**
+   - **Aficionados por Raridades:** Colecionadores que buscam edições limitadas, discos raros e prensagens originais.
+     Eles valorizam a trocas de informações e a possibilidade de encontrar peças únicas para sua coleção.
+   - **Historiadores Musicais:** Pessoas interessadas na história da música e na preservação de gravações antingas.
+     Eles utilizam o site para pesquisar e adquirir discos que têm importância histórica e cultural.
+
+3. ### **Profissionais da Música:**
+   - **DJs e Produtores:** Profissionais que utilizam discos de vinil em suas performances e produções musicais.
+     Eles procuram por discos específicos que possam enriquecer seus sets e criações.
+   - **Lojistas e Vendedores:** proprietários de lojas de discos e vendedores independentes que utilizam a
+     plataforma para expandir seu alcance e conectar-se com compradores em potencial.
+
+4. ### **Comunidade Global:**
+   - **Colecionadores Internacionais:** Pessoas de diferentes partes do mundo que compartilham a paixão pelo vinil
+     e utilizam o site para conectar-se com outros colecionadores, trocar discos e participar de eventos globais.
+
+
+  
+
+
+
+
+ 
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
