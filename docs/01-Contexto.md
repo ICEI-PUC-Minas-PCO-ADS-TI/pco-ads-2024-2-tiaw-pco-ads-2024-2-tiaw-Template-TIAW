@@ -52,12 +52,21 @@ Criar um site dedicado a colecionadores de vinil pode beneficiar tanto os coleci
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A criação de um site dedicado aos colecionadores de discos de vinil é uma iniciativa que visa preservar e promover a rica herança musical que esse formato representa. Em um mundo cada vez mais digital, o vinil oferece uma experiência auditiva e sensorial única, que não pode ser replicada 
+por meios digitais. Este site servirá como ponto de encontro para entusiastas de todas as idades, proporcionando um espaço para trocas de
+conhecimentos, experiências e a realização de transações comerciais de discos raros e edições especiais.
+Além disso, o site terá um papel educativo, oferecendo artigos, entrevistas e resenhas que aprofundam o conhecimento sobre a história do vinil,
+os artistas e as gravações icônicas. 
+Esse aspecto educativo não só atrairá novos colecionadores, mas também ajudará a manter viva a tradição do vinil para futuras gerações.
+O mercado de vinil tem mostrado um crescimento significativo nos últimos anos, com um aumento nas vendas e no interesse por esse formato.
+Este site capitalizará essa tendência, oferecendo uma plataforma segura e confiável para que os colecionadores possam comprar, vender e trocar
+discos. Ao promover práticas sustentavéis, o site também incentivará a longevidade dos discos de vinil, que são duráveis e podem ser
+apreciados por décadas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Em resumo, a criação deste site não so atenderá a demanda crescente por um espaço dedicado aos colecionadores de vinil, mas também 
+contribuirá para a preservação de uma parte importante da história musical, fortalecendo a comunidade de colecionadores e 
+promovendo a educação e a sustentabilidade.
 
-> **Links úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-alvo
 
@@ -94,10 +103,4 @@ e perfis de interesse.
 
  
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
-> **Links úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público-alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
