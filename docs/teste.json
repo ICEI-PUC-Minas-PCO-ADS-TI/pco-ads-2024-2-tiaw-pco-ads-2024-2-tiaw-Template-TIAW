@@ -1,0 +1,14 @@
+{
+    "banners": [
+        {
+            "id": 1,
+            "descricao": "Transforme sua coleção em uma obra de arte",
+            "imagem": "banner_final.webp"
+        },
+        {
+            "id": 2,
+            "descricao": "Vinil: a trilha sonora da sua vida",
+            "imagem": "banner_2_final.webp"
+        }
+    ]
+}
