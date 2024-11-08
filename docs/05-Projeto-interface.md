@@ -1,16 +1,16 @@
 
 # Projeto de interface
-![wireframe-alta](https://github.com/user-attachments/assets/5edc4f83-ae5c-4d8c-99e3-c71a488cb218)
+![wireframe-alta](images/telas/WireframeAlta.png)
 
 
 
  ## User flow
-![fluxo do usuario](https://github.com/user-attachments/assets/a7b214f1-04d0-42c5-883e-4e3b83732c4b)
+![fluxo do usuario](images/telas/FluxoDoUsuario.png)
 
 
 ## Wireframes
 
-![wireframe](https://github.com/user-attachments/assets/2b793515-b77b-4780-8acd-f71551079cb3)
+![wireframe](images/telas/Wireframe.png)
 
  
 
