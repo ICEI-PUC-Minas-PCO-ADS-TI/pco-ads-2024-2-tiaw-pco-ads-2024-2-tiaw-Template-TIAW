@@ -6,31 +6,32 @@
 
 ## Etapa de entendimento
 > * **Mapa de stakeholders**:
-![stalkeholders](https://github.com/user-attachments/assets/6cd11cc3-1d0d-4bd1-82a1-20131de308b0)
+![stalkeholders](images/miro/stalkeholders.png)
 
 
 > * **Entrevistas qualitativas**:
-![Entrevista 1](https://github.com/user-attachments/assets/3fb34c26-7370-4f23-b35a-83bfdfc606e2)
+![Entrevista 1](images/miro/Entrevista1.png)
 
-![Entrevista 2](https://github.com/user-attachments/assets/591bd136-d032-4a4c-971b-d0689fed6b8e)
 
-![Entrevista 3](https://github.com/user-attachments/assets/fe219603-d5c8-4db5-9708-cc386d79f128)
+![Entrevista 2](images/miro/Entrevista2.png)
 
-![Entrevista 4](https://github.com/user-attachments/assets/9f0f25f9-d476-43b9-95d6-d5e843c6705e)
+![Entrevista 3](images/miro/Entrevista3.png)
 
-![Entrevista 5](https://github.com/user-attachments/assets/1b83e6b3-2490-48b1-96ed-b3de701910eb)
+![Entrevista 4](images/miro/Entrevista4.png)
+
+![Entrevista 5](images/miro/Entrevista5.png)
 
 
 ## Etapa de definição
 
 ### Personas
-![persona 1 - Patricia](https://github.com/user-attachments/assets/55a1e07c-d79b-4805-9136-262770c9cd83)
+![persona 1 - Patricia](images/miro/persona1Patricia.png)
 
-![Persona 2 Fabiana](https://github.com/user-attachments/assets/bb3b7992-cf1d-4ae2-8fa7-45ece424f1ed)
+![Persona 2 Fabiana](images/miro/Persona2Fabiana.png)
 
-![persona 3 Paulo Cesar](https://github.com/user-attachments/assets/5bd0dd69-144e-4998-b0d6-326229b52f2f)
+![persona 3 Paulo Cesar](images/miro/persona3PauloCesar.png)
 
-![persona 3 Paulo Cesar](https://github.com/user-attachments/assets/f8a1685a-57d5-4099-9bc4-b6ea2923f97d)
+![persona 3 Paulo Cesar](images/miro/Persona4Pedro.png)
 
-![Persona 5 Marco](https://github.com/user-attachments/assets/1f92cac7-dba2-4d39-b06e-65fdededcebc)
+![Persona 5 Marco](images/miro/Persona5Marco.png)
 
