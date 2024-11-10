@@ -3,11 +3,13 @@
 
 <span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Product design</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
+A equipe adotou uma metodologia ágil, baseando-se no framework Scrum, para gerenciar o desenvolvimento do projeto e garantir a colaboração eficiente e adaptabilidade às mudanças no escopo. Essa metodologia foi escolhida pela sua flexibilidade e capacidade de oferecer entregas contínuas, mantendo a equipe alinhada com os objetivos e prazos de entrega do projeto. 
 
 ## Relação de ambientes de trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Cada Membro da equipe configura seu código em seu ambiente de desenvolvimento local em seu próprio dispositivo, ficando responsável por testar e adicionar em sua própria branches esses códigos e sua documentação necessária.
+
+A equipe está utilizando uma plataforma de controle de versão, chamada GitHub, mantendo os códigos-fontes, aceitando contribuições de todos os membros presentes no grupo e facilitando o acesso ao código para que possa estar sendo feito um site de alta qualidade e usabilidade. 
 
 ## Controle de versão
 
@@ -42,14 +44,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ###  Divisão de papéis
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-> A equipe utiliza o Scrum como base para definição do processo de desenvolvimento. [Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-
-- Scrum Master: nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: nome de um membro da equipe, representante dos interesses de todos os envolvidos (stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: nomes de todos os membros da equipe, pois todos os membros deverão implementar no mínimo duas telas/funcionalidades.
-- Equipe de Design: nomes dos membros da equipe que trabalharão com design.
+- Scrum Master: Lilianne Maia.
+- Product Owner: Guilherme de Assis, Juan Cunha, Lilianne Maia e Tatiane Mares.
+- Equipe de Desenvolvimento: Guilherme de Assis, Juan Cunha, Lilianne Maia e Tatiane Mares.
+- Equipe de Design: Lilianne Maia.
 
 > **Links úteis**:
 > - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
