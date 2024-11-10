@@ -3,13 +3,13 @@
 
 <span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Product design</a></span>
 
-A equipe adotou uma metodologia ágil, baseando-se no framework Scrum, para gerenciar o desenvolvimento do projeto e garantir a colaboração eficiente e adaptabilidade às mudanças no escopo. Essa metodologia foi escolhida pela sua flexibilidade e capacidade de oferecer entregas contínuas, mantendo a equipe alinhada com os objetivos e prazos de entrega do projeto. 
+O grupo adotou uma metodologia ágil, baseando-se no framework Scrum, para gerenciar o desenvolvimento do projeto e garantir a colaboração eficiente e adaptabilidade às mudanças no escopo. Essa metodologia foi escolhida pela sua flexibilidade e capacidade de oferecer entregas contínuas, mantendo a equipe alinhada com os objetivos e prazos de entrega do projeto. 
 
 ## Relação de ambientes de trabalho
 
-Cada Membro da equipe configura seu código em seu ambiente de desenvolvimento local em seu próprio dispositivo, ficando responsável por testar e adicionar em sua própria branches esses códigos e sua documentação necessária.
+Cada Membro do grupo configura seu código em seu ambiente de desenvolvimento local em seu próprio dispositivo, ficando responsável por testar e adicionar em sua própria branches esses códigos e sua documentação necessária.
 
-A equipe está utilizando uma plataforma de controle de versão, chamada GitHub, mantendo os códigos-fontes, aceitando contribuições de todos os membros presentes no grupo e facilitando o acesso ao código para que possa estar sendo feito um site de alta qualidade e usabilidade. 
+O grupo está utilizando uma plataforma de controle de versão, chamada GitHub, mantendo os códigos-fontes, aceitando contribuições de todos os membros presentes no grupo e facilitando o acesso ao código para que possa estar sendo feito um site de alta qualidade e usabilidade. 
 
 ## Controle de versão
 
@@ -55,10 +55,15 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
 
 ### Processo
+__*Processo de Design Thinking*__
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+**Perquisa**: O grupo iniciou com pesquisas por meio de entrevistas feita com pessoas que utilizam o produto no qual estamos elaborando um site, contendo aprofundamentos dos problemas do ponto de vista dessas pessoas e as necessidades dos usuários. Essas informações nos ajudou a ter um ponto zero ou ponto de partidade por onde deveriamos começar a elaboração do site, para que se pudesse preencher uma possivel lacuna nesta comunidade de disco.
+**Definição do Problema**: Com as informações adquiridas no processo de pesquisa, o grupo identificou os problemas informados pelos entrevistados. Esses problemas é formulado de maneira objetiva para que possamos ter uma orientação para as próximas fases do projeto. 
+**Concepção**: O grupo realiza um brainstormings para gerar ideias de possiveis soluções para o problema identificado. Valorizando a criatividade e incentivando a contribuição de todos os integrantes do grupo.
 
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, o GitHub Projects, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. 
+__*Implementação do Framework Scrum*__
+
+**Sprints**: Cada sprint começa com uma breve reunião em sala de aula todas as Terças-Feiras, onde o grupo define as tarefas a serem realizadas por cada membro e como está o andamento de cada sprint elaborada, essas reuniões diarias é feita para sincronizar o progresso do trabalho e ajustar os planos conforme a necessidade. A ideia central é garantir que todos estejam focados no projeto e para que possamos permanecer alinhados.
 
 Coloque uma imagem da estrutura da ferramenta de controle de tarefas (Kanban) e o link do GitHub Projects.
  
