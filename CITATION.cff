@@ -2,17 +2,17 @@ cff-version: 1.2.0
 message: Please cite this software using these metadata.
 title: Discô
 authors:
-  - family-names: Thiebaut
+  - family-names: de Assis Thiebaut
     given-names: Guilherme 
-  - family-names: Silva
+  - family-names: Cunha e Silva
     given-names: Juan
-  - family-names: Maia
+  - family-names: Patrícia Soares Maia
     given-names: Lilianne
-  - family-names: Oliveira
+  - family-names: de Miranda Mares Oliveira
     given-names: Tatiane
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Vasconcelos
+    family-names: Soares Vieira de Vasconcelos
     given-names: Amália 
 keywords:
     Disco
