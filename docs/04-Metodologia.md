@@ -57,7 +57,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ### Processo
 __*Processo de Design Thinking*__
 
-**Perquisa**: O grupo iniciou com pesquisas por meio de entrevistas feita com pessoas que utilizam o produto no qual estamos elaborando um site, contendo aprofundamentos dos problemas do ponto de vista dessas pessoas e as necessidades dos usuários. Essas informações nos ajudou a ter um ponto zero ou ponto de partidade por onde deveriamos começar a elaboração do site, para que se pudesse preencher uma possivel lacuna nesta comunidade de disco.
+**Pesquisa**: O grupo iniciou com pesquisas por meio de entrevistas feita com pessoas que utilizam o produto no qual estamos elaborando um site, contendo aprofundamentos dos problemas do ponto de vista dessas pessoas e as necessidades dos usuários. Essas informações nos ajudou a ter um ponto zero ou ponto de partidade por onde deveriamos começar a elaboração do site, para que se pudesse preencher uma possivel lacuna nesta comunidade de disco.
 
 **Definição do Problema**: Com as informações adquiridas no processo de pesquisa, o grupo identificou os problemas informados pelos entrevistados. Esses problemas é formulado de maneira objetiva para que possamos ter uma orientação para as próximas fases do projeto. 
 
