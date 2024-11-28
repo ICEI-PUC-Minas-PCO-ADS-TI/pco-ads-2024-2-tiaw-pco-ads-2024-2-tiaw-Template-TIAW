@@ -1,0 +1,182 @@
+// INICIO BANNER
+let divBanner = document.getElementById("banner");
+let divTxt = document.getElementById("txt");
+
+fetch("DiscoDB.json").then((response) => {
+    response.json().then((dados) => {
+        let index = 0;
+        console.log(dados.banners.length);
+
+        const trocarImg = () => {
+            index = (index + 1) % dados.banners.length;
+            divTxt.innerHTML = `<h2 id="descricao">${dados.banners[index].descricao}</h2>`;
+            divBanner.innerHTML = `
+                <img id="imgBanner" src="${dados.banners[index].imagem}" alt="600px" height="600px">
+                <div id="txt">
+                    <h2 id="descricao">${dados.banners[index].descricao}</h2>
+                </div>
+            `;
+        };
+
+        setInterval(trocarImg, 3000);
+    });
+});
+
+// FIM BANNER
+
+// INICIO CARROSSEL
+
+let top10Banner = document.getElementById("artifactBanner");
+let carouselIndicators = document.getElementById("carouselIndicators");
+let top10Index = 0;
+
+fetch("DiscoDB.json").then((response) => {
+    response.json().then((data) => {
+        const top10Items = data.top10;
+
+        // Função para atualizar o carrossel com nova imagem e descrição
+        const updateTop10Banner = () => {
+            // Atualiza a imagem e descrição
+            top10Banner.innerHTML = `
+                <div id="carouselImageContainer">
+                    <img id="carouselImage" src="${top10Items[top10Index].imagem}" alt="600px" height="600px">
+                </div>
+                <div id="carouselTextContainer">
+                    <div id="carouselText">
+                        <h2 id="caption">${top10Items[top10Index].descricao}</h2>
+                    </div>
+                </div>
+            `;
+
+            // Atualiza os pontos de navegação
+            const indicators = document.querySelectorAll(".carousel-indicator");
+            indicators.forEach((indicator, index) => {
+                if (index === top10Index) {
+                    indicator.classList.add("active"); // Adiciona a classe active ao ponto atual
+                } else {
+                    indicator.classList.remove("active"); // Remove a classe active dos outros pontos
+                }
+            });
+        };
+
+        // Função para ir para o próximo item
+        const nextTop10Item = () => {
+            top10Index = (top10Index + 1) % top10Items.length;
+            updateTop10Banner();
+        };
+
+        // Função para voltar para o item anterior
+        const prevTop10Item = () => {
+            top10Index = (top10Index - 1 + top10Items.length) % top10Items.length;
+            updateTop10Banner();
+        };
+
+        // Função para ir para um item específico ao clicar no ponto
+        const goToItem = (index) => {
+            top10Index = index;
+            updateTop10Banner();
+        };
+
+        // Gera os pontos de navegação dinamicamente
+        const generateIndicators = () => {
+            carouselIndicators.innerHTML = ''; // Limpa os pontos existentes
+
+            top10Items.forEach((_, index) => {
+                const indicator = document.createElement("div");
+                indicator.classList.add("carousel-indicator");
+                indicator.addEventListener("click", () => goToItem(index));
+                carouselIndicators.appendChild(indicator);
+            });
+        };
+
+        // Inicializa o carrossel e gera os pontos
+        generateIndicators();
+        updateTop10Banner();
+
+        // Navegação automática a cada 3 segundos
+        setInterval(nextTop10Item, 3000);
+
+        // Eventos de navegação manual
+        document.getElementById("nextBtn").addEventListener("click", nextTop10Item);
+        document.getElementById("prevBtn").addEventListener("click", prevTop10Item);
+    }).catch((error) => {
+        console.error("Erro ao processar o JSON", error);
+    });
+});
+
+
+
+// carrossel 2
+fetch("DiscoDB.json").then((response) => {
+    response.json().then((data) => {
+        const top10Items = data.top10;
+
+        // Função para atualizar o carrossel com nova imagem e descrição
+        const updateTop10Banner = () => {
+            // Atualiza a imagem e descrição
+            RecemAdicionados.innerHTML = `
+                <div id="carouselImageContainer">
+                    <img id="carouselImage" src="${RecemAdicionadosItems[RecemAdicionadosIndex].imagem}" alt="600px" height="600px">
+                </div>
+                <div id="carouselTextContainer">
+                    <div id="carouselText">
+                        <h2 id="caption">${top10Items[top10Index].descricao}</h2>
+                    </div>
+                </div>
+            `;
+
+            // Atualiza os pontos de navegação
+            const indicators = document.querySelectorAll(".carousel-indicator");
+            indicators.forEach((indicator, index) => {
+                if (index === top10Index) {
+                    indicator.classList.add("active"); // Adiciona a classe active ao ponto atual
+                } else {
+                    indicator.classList.remove("active"); // Remove a classe active dos outros pontos
+                }
+            });
+        };
+
+        // Função para ir para o próximo item
+        const nextTop10Item = () => {
+            top10Index = (top10Index + 1) % top10Items.length;
+            updateTop10Banner();
+        };
+
+        // Função para voltar para o item anterior
+        const prevTop10Item = () => {
+            top10Index = (top10Index - 1 + top10Items.length) % top10Items.length;
+            updateTop10Banner();
+        };
+
+        // Função para ir para um item específico ao clicar no ponto
+        const goToItem = (index) => {
+            top10Index = index;
+            updateTop10Banner();
+        };
+
+        // Gera os pontos de navegação dinamicamente
+        const generateIndicators = () => {
+            carouselIndicators.innerHTML = ''; // Limpa os pontos existentes
+
+            top10Items.forEach((_, index) => {
+                const indicator = document.createElement("div");
+                indicator.classList.add("carousel-indicator");
+                indicator.addEventListener("click", () => goToItem(index));
+                carouselIndicators.appendChild(indicator);
+            });
+        };
+
+        // Inicializa o carrossel e gera os pontos
+        generateIndicators();
+        updateTop10Banner();
+
+        // Navegação automática a cada 3 segundos
+        setInterval(nextTop10Item, 3000);
+
+        // Eventos de navegação manual
+        document.getElementById("nextBtn").addEventListener("click", nextTop10Item);
+        document.getElementById("prevBtn").addEventListener("click", prevTop10Item);
+    }).catch((error) => {
+        console.error("Erro ao processar o JSON", error);
+    });
+});
