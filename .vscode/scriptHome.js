@@ -120,7 +120,7 @@ fetch("DiscoDB.json").then((response) => {
             // Atualiza a imagem e descrição
             recemAdicionadosBanner.innerHTML = `
                 <div id="carousel2ImageContainer">
-                    <img id="carouse2Image" src="${recemAdicionadosItems[recemAdicionadosIndex].capa}" alt="600px" height="600px">
+                    <img id="carousel2Image" src="${recemAdicionadosItems[recemAdicionadosIndex].capa}" alt="600px" height="600px">
                 </div>
                 <div id="carousel2TextContainer">
                     <div id="carousel2Text">
