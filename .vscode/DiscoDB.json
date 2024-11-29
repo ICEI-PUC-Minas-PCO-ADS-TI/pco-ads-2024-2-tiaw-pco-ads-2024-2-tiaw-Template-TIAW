@@ -53,61 +53,55 @@
     ],
     "RecemAdicionados": [
         {
-            "artista": "BobMarley - 'Rumours'",
+            "artista": "BobMarley \n 'Rumours'",
             "capa": "assets/img/BobMarley.webp",
             "genero": "Reggae"
         },
         {
-            "artista": "The Beatles - 'Abbey Road'",
-            "capa": ".vscode/assets/img/AbbeyRoad.webp",
-            "genero": "Rock"
-        },
-        {
-            "artista": "Cartola - 'Verde que te quero Rosa'",
+            "artista": "Cartola \n 'Verde que te quero Rosa'",
             "capa": "assets/img/Cartola.webp",
             "genero": "Samba"
         },
         {
-            "artista": "David Garett - 'Encore'",
+            "artista": "David Garett \n 'Encore'",
             "capa": "assets/img/DavidGarett.webp",
             "genero": "Clássica"
         },
         {
-            "artista": "The Beatles - 'Abbey Road'",
+            "artista": "The Beatles \n 'Abbey Road'",
             "capa": "assets/img/AbbeyRoad.webp",
             "genero": "Rock"
         },
         {
-            "artista": "JulioIglesias - 'Romances'",
+            "artista": "JulioIglesias \n 'Romances'",
             "capa": "assets/img/JulioIglesias.webp",
             "genero": "Romântica"
         },
         {
-            "artista": "Led Zeppelin - 'Vol. III'",
+            "artista": "Led Zeppelin \n 'Vol. III'",
             "capa": "assets/img/LedZeppelin.webp",
             "genero": "Rock"
         },
         {
-            "artista": "Michael Jackson - 'Bad'",
-            "capa": "assets/img/MichaelJackson.webp",
+            "artista": "Michael Jackson \n 'Bad'",
+            "capa": "assets/img/MichaelJacson.webp",
             "genero": "Pop"
         },
         {
-            "artista": "Miles Davis - 'Kind of Blue'",
+            "artista": "Miles Davis \n 'Kind of Blue'",
             "capa": "assets/img/MilesDavis.webp",
             "genero": "Blues"
         },
         {
-            "artista": "Milton Nascimento - 'Clube da Esquina II'",
+            "artista": "Milton Nascimento \n 'Clube da Esquina nº 2'",
             "capa": "assets/img/MiltonNascimento.webp",
             "genero": "MPB"
         },
         {
-            "artista": "Nina Simone - 'Sins & Play the Blues'",
-            "capa": "assets/img/NinaSimone .webp",
+            "artista": "Nina Simone \n 'Sins & Play the Blues'",
+            "capa": "assets/img/NinaSimone.webp",
             "genero": "MPB"
         }
-
     ],
     "Usuarios": [
         {

@@ -24,7 +24,7 @@ fetch("DiscoDB.json").then((response) => {
 
 // FIM BANNER
 
-// INICIO CARROSSEL
+// INICIO CARROSSEL1
 
 let top10Banner = document.getElementById("artifactBanner");
 let carouselIndicators = document.getElementById("carouselIndicators");
@@ -107,28 +107,32 @@ fetch("DiscoDB.json").then((response) => {
 
 
 // carrossel 2
+let recemAdicionadosBanner = document.getElementById("artifactBanner2");
+let carousel2Indicators = document.getElementById("carousel2Indicators");
+let recemAdicionadosIndex = 0;
+
 fetch("DiscoDB.json").then((response) => {
     response.json().then((data) => {
-        const top10Items = data.top10;
+        const recemAdicionadosItems = data.RecemAdicionados;
 
         // Função para atualizar o carrossel com nova imagem e descrição
-        const updateTop10Banner = () => {
+        const updateRecemAdicionadosBanner = () => {
             // Atualiza a imagem e descrição
-            RecemAdicionados.innerHTML = `
-                <div id="carouselImageContainer">
-                    <img id="carouselImage" src="${RecemAdicionadosItems[RecemAdicionadosIndex].imagem}" alt="600px" height="600px">
+            recemAdicionadosBanner.innerHTML = `
+                <div id="carousel2ImageContainer">
+                    <img id="carouse2Image" src="${recemAdicionadosItems[recemAdicionadosIndex].capa}" alt="600px" height="600px">
                 </div>
-                <div id="carouselTextContainer">
-                    <div id="carouselText">
-                        <h2 id="caption">${top10Items[top10Index].descricao}</h2>
+                <div id="carousel2TextContainer">
+                    <div id="carousel2Text">
+                        <h2 id="caption2">${recemAdicionadosItems[recemAdicionadosIndex].artista}</h2>
                     </div>
                 </div>
             `;
 
             // Atualiza os pontos de navegação
-            const indicators = document.querySelectorAll(".carousel-indicator");
+            const indicators = document.querySelectorAll(".carousel2-indicator");
             indicators.forEach((indicator, index) => {
-                if (index === top10Index) {
+                if (index === recemAdicionadosIndex) {
                     indicator.classList.add("active"); // Adiciona a classe active ao ponto atual
                 } else {
                     indicator.classList.remove("active"); // Remove a classe active dos outros pontos
@@ -137,45 +141,45 @@ fetch("DiscoDB.json").then((response) => {
         };
 
         // Função para ir para o próximo item
-        const nextTop10Item = () => {
-            top10Index = (top10Index + 1) % top10Items.length;
-            updateTop10Banner();
+        const nextRecemAdicionadosItem = () => {
+            recemAdicionadosIndex = (recemAdicionadosIndex + 1) % recemAdicionadosItems.length;
+            updateRecemAdicionadosBanner();
         };
 
         // Função para voltar para o item anterior
-        const prevTop10Item = () => {
-            top10Index = (top10Index - 1 + top10Items.length) % top10Items.length;
-            updateTop10Banner();
+        const prevRecemAdicionadosItem = () => {
+            recemAdicionadosIndex = (recemAdicionadosIndex - 1 + recemAdicionadosItems.length) % recemAdicionadosItems.length;
+            updateRecemAdicionadosBanner();
         };
 
         // Função para ir para um item específico ao clicar no ponto
         const goToItem = (index) => {
-            top10Index = index;
-            updateTop10Banner();
+            recemAdicionadosIndex = index;
+            updateRecemAdicionadosBanner();
         };
 
         // Gera os pontos de navegação dinamicamente
         const generateIndicators = () => {
-            carouselIndicators.innerHTML = ''; // Limpa os pontos existentes
+            carousel2Indicators.innerHTML = ''; // Limpa os pontos existentes
 
-            top10Items.forEach((_, index) => {
+            recemAdicionadosItems.forEach((_, index) => {
                 const indicator = document.createElement("div");
-                indicator.classList.add("carousel-indicator");
+                indicator.classList.add("carousel2-indicator"); // Classe específica para o segundo carrossel
                 indicator.addEventListener("click", () => goToItem(index));
-                carouselIndicators.appendChild(indicator);
+                carousel2Indicators.appendChild(indicator);
             });
         };
 
         // Inicializa o carrossel e gera os pontos
         generateIndicators();
-        updateTop10Banner();
+        updateRecemAdicionadosBanner();
 
         // Navegação automática a cada 3 segundos
-        setInterval(nextTop10Item, 3000);
+        setInterval(nextRecemAdicionadosItem, 3000);
 
         // Eventos de navegação manual
-        document.getElementById("nextBtn").addEventListener("click", nextTop10Item);
-        document.getElementById("prevBtn").addEventListener("click", prevTop10Item);
+        document.getElementById("nextBtn2").addEventListener("click", nextRecemAdicionadosItem);
+        document.getElementById("prevBtn2").addEventListener("click", prevRecemAdicionadosItem);
     }).catch((error) => {
         console.error("Erro ao processar o JSON", error);
     });
