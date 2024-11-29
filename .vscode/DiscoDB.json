@@ -53,8 +53,8 @@
     ],
     "RecemAdicionados": [
         {
-            "descricao": " 1º Lugar:\n Fleetwood Mac - 'Rumours'",
-            "imagem": "assets/img/FleetwoodMac.webp"
+            "artista": " BobMarley - 'Rumours'",
+            "capa": ".vscode/assets/img/BobMarley.webp"
         },
         {
             "descricao": "2º Lugar:\nJoy Division - 'Unknown Pleasures'",
