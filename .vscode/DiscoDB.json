@@ -53,12 +53,74 @@
     ],
     "RecemAdicionados": [
         {
-            "artista": " BobMarley - 'Rumours'",
-            "capa": ".vscode/assets/img/BobMarley.webp"
+            "artista": "BobMarley - 'Rumours'",
+            "capa": "assets/img/BobMarley.webp",
+            "genero": "Reggae"
         },
         {
-            "descricao": "2º Lugar:\nJoy Division - 'Unknown Pleasures'",
-            "imagem": "assets/img/JoyDivision.webp"
+            "artista": "The Beatles - 'Abbey Road'",
+            "capa": ".vscode/assets/img/AbbeyRoad.webp",
+            "genero": "Rock"
+        },
+        {
+            "artista": "Cartola - 'Verde que te quero Rosa'",
+            "capa": "assets/img/Cartola.webp",
+            "genero": "Samba"
+        },
+        {
+            "artista": "David Garett - 'Encore'",
+            "capa": "assets/img/DavidGarett.webp",
+            "genero": "Clássica"
+        },
+        {
+            "artista": "The Beatles - 'Abbey Road'",
+            "capa": "assets/img/AbbeyRoad.webp",
+            "genero": "Rock"
+        },
+        {
+            "artista": "JulioIglesias - 'Romances'",
+            "capa": "assets/img/JulioIglesias.webp",
+            "genero": "Romântica"
+        },
+        {
+            "artista": "Led Zeppelin - 'Vol. III'",
+            "capa": "assets/img/LedZeppelin.webp",
+            "genero": "Rock"
+        },
+        {
+            "artista": "Michael Jackson - 'Bad'",
+            "capa": "assets/img/MichaelJackson.webp",
+            "genero": "Pop"
+        },
+        {
+            "artista": "Miles Davis - 'Kind of Blue'",
+            "capa": "assets/img/MilesDavis.webp",
+            "genero": "Blues"
+        },
+        {
+            "artista": "Milton Nascimento - 'Clube da Esquina II'",
+            "capa": "assets/img/MiltonNascimento.webp",
+            "genero": "MPB"
+        },
+        {
+            "artista": "Nina Simone - 'Sins & Play the Blues'",
+            "capa": "assets/img/NinaSimone .webp",
+            "genero": "MPB"
+        }
+
+    ],
+    "Usuarios": [
+        {
+            "name": "João Silva",
+            "email": "joao.silva@example.com",
+            "image": "img\fabiana.png",
+            "ranking": 5,
+            "socialMedia": "https://twitter.com/joaosilva",
+            "categories": [
+                "Rock",
+                "Jazz",
+                "Blues"
+            ]
         }
     ]
 }
