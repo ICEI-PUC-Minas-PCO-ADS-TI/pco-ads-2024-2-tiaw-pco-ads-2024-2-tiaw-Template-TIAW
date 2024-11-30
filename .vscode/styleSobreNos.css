@@ -86,3 +86,19 @@ main{
     color: white;
     background-color: #267A80;
 }
+.home-button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Tilt Warp';
+    font-size: 1.5em;
+    justify-content: center;
+}
+  

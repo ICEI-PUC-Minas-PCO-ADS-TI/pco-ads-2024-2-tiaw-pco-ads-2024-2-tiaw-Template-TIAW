@@ -28,7 +28,7 @@ footer {
 
 .texto-footer {
     text-decoration: none;
-    color: inherit!important;
+    color: inherit !important;
 }
 
 .main-content {
@@ -247,7 +247,7 @@ a {
 .titulos {
 
     color: black;
-    font-family: 'League Spartan';
+    font-family: 'Tilt Warp';
     font-size: 2em;
     display: block;
     font-size: 2em;
@@ -373,5 +373,5 @@ a {
 }
 
 #artifactBanner2 {
-    position:relative;
+    position: relative;
 }
