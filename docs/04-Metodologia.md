@@ -15,7 +15,6 @@ O grupo está utilizando uma plataforma de controle de versão, chamada GitHub, 
 
 A ferramenta de controle de versão adotada no nosso projeto foi o [Git](), sendo que o [GitHub]() foi utilizado para hospedagem do repositório.
 
-O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: Onde se encontra todos os códigos dos Dev do grupo.
 - `Branches`: Cada Dev possui a sua branche própria onde deixa o seu código armazenando em cloud para que possa ser integrada na main.
@@ -31,12 +30,6 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gestão de tags, merges, commits e branches é realizada. Discuta também como a gestão de issues foi feita.
 
-> **Links úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e GitHub](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Planejamento do projeto
 
@@ -47,10 +40,6 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - Equipe de Desenvolvimento: Guilherme de Assis, Juan Cunha, Lilianne Maia e Tatiane Mares.
 - Equipe de Design: Lilianne Maia.
 
-> **Links úteis**:
-> - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
 
 ### Processo
 __*Processo de Design Thinking*__
@@ -86,5 +75,5 @@ O projeto foi desenvolvido a partir de plataformas na qual foi solicitado que fo
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-disco/tree/main/docs |
 | Gerenciamento do projeto            | GitHub Projects                    | http://....    ⚠️ EXEMPLO ⚠️        |
 | Projeto de interface                | Figma                              | http://....    ⚠️ EXEMPLO ⚠️        |
-| Hospedagem                          | Vercel                             | http://....    ⚠️ EXEMPLO ⚠️        |
+| Hospedagem                          | GitHub                             | http://....    ⚠️ EXEMPLO ⚠️        |
  
