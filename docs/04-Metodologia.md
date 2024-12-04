@@ -13,14 +13,12 @@ O grupo está utilizando uma plataforma de controle de versão, chamada GitHub, 
 
 ## Controle de versão
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [GitHub](https://github.com) foi utilizado para hospedagem do repositório.
+A ferramenta de controle de versão adotada no nosso projeto foi o [Git](), sendo que o [GitHub]() foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
+- `main`: Onde se encontra todos os códigos dos Dev do grupo.
+- `Branches`: Cada Dev possui a sua branche própria onde deixa o seu código armazenando em cloud para que possa ser integrada na main.
 - `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
 
@@ -79,17 +77,13 @@ Coloque uma imagem da estrutura da ferramenta de controle de tarefas (Kanban) e 
 
 ### Ferramentas
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) editor de código, (2) ferramentas de comunicação, (3) ferramentas de diagramação, (4) plataformas de hospedagem, entre outras.
-
-⚠️ EXEMPLO ⚠️ os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+O projeto foi desenvolvido a partir de plataformas na qual foi solicitado que fosse elaborado toda a estrutura do projeto. A tabela a baixo possui o link dessas plataformas utilizadas.
 
 | Ambiente                            | Plataforma                         | Link de acesso                       |
 |-------------------------------------|------------------------------------|--------------------------------------|
 | Processo de Design Thinking         | Miro                               | https://miro.com/app/board/uXjVKoqwSiA=/        |
-| Repositório de código fonte         | GitHub                             | https://....   ⚠️ EXEMPLO ⚠️        |
-| Documentos do projeto               | GitHub                             | http://....    ⚠️ EXEMPLO ⚠️        |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-disco/tree/main/src  |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-disco/tree/main/docs |
 | Gerenciamento do projeto            | GitHub Projects                    | http://....    ⚠️ EXEMPLO ⚠️        |
 | Projeto de interface                | Figma                              | http://....    ⚠️ EXEMPLO ⚠️        |
 | Hospedagem                          | Vercel                             | http://....    ⚠️ EXEMPLO ⚠️        |
