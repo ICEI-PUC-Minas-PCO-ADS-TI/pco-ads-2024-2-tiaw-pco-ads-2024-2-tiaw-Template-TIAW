@@ -87,7 +87,7 @@ Liste todas as ferramentas que foram empregadas no projeto, justificando a escol
 
 | Ambiente                            | Plataforma                         | Link de acesso                       |
 |-------------------------------------|------------------------------------|--------------------------------------|
-| Processo de Design Thinking         | Miro                               | https://....   ⚠️ EXEMPLO ⚠️        |
+| Processo de Design Thinking         | Miro                               | https://miro.com/app/board/uXjVKoqwSiA=/        |
 | Repositório de código fonte         | GitHub                             | https://....   ⚠️ EXEMPLO ⚠️        |
 | Documentos do projeto               | GitHub                             | http://....    ⚠️ EXEMPLO ⚠️        |
 | Gerenciamento do projeto            | GitHub Projects                    | http://....    ⚠️ EXEMPLO ⚠️        |
