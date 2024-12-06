@@ -2,7 +2,7 @@
 let divBanner = document.getElementById("banner");
 let divTxt = document.getElementById("txt");
 
-fetch("DiscoDB.json").then((response) => {
+fetch("./db/DiscoDB.json").then((response) => {
     response.json().then((dados) => {
         let index = 0;
         console.log(dados.banners.length);
@@ -30,7 +30,7 @@ let top10Banner = document.getElementById("artifactBanner");
 let carouselIndicators = document.getElementById("carouselIndicators");
 let top10Index = 0;
 
-fetch("DiscoDB.json").then((response) => {
+fetch("./db/DiscoDB.json").then((response) => {
     response.json().then((data) => {
         const top10Items = data.top10;
 
@@ -111,7 +111,7 @@ let recemAdicionadosBanner = document.getElementById("artifactBanner2");
 let carousel2Indicators = document.getElementById("carousel2Indicators");
 let recemAdicionadosIndex = 0;
 
-fetch("DiscoDB.json").then((response) => {
+fetch("./db/DiscoDB.json").then((response) => {
     response.json().then((data) => {
         const recemAdicionadosItems = data.RecemAdicionados;
 
