@@ -28,7 +28,7 @@ function cadastrar() {
         senha: senha
     };
   
-    usuarios.push(novoUsuario);
+    usuarios.push(novoUsuario); 
     localStorage.setItem("usuarios", JSON.stringify(usuarios));
   
     alert("Cadastro realizado com sucesso!");
