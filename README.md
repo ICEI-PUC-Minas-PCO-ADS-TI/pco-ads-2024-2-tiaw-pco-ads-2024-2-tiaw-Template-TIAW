@@ -1,4 +1,4 @@
-Discô
+![Discô](images/LogoDisco/LogoDisco.webp)
 
 `CURSO: Análise e Desenvolvimento de Sistemas`
 
