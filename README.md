@@ -1,4 +1,5 @@
-![Discô](images/LogoDisco/LogoDisco.webp)
+<img src="docs/images/LogoDisco/LogoDisco.webp" alt="Discô" width="20%">
+
 
 `CURSO: Análise e Desenvolvimento de Sistemas`
 
