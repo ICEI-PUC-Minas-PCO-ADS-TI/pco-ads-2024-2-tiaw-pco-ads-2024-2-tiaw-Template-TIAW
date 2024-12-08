@@ -21,11 +21,9 @@ fetch("./db/DiscoDB.json").then((response) => {
         setInterval(trocarImg, 3000);
     });
 });
-
 // FIM BANNER
 
 // INICIO CARROSSEL1
-
 let top10Banner = document.getElementById("artifactBanner");
 let carouselIndicators = document.getElementById("carouselIndicators");
 let top10Index = 0;
@@ -103,10 +101,9 @@ fetch("./db/DiscoDB.json").then((response) => {
         console.error("Erro ao processar o JSON", error);
     });
 });
+// FIM CARROSSEL1
 
-
-
-// carrossel 2
+// INICIO CARROSSEL2
 let recemAdicionadosBanner = document.getElementById("artifactBanner2");
 let carousel2Indicators = document.getElementById("carousel2Indicators");
 let recemAdicionadosIndex = 0;
@@ -184,3 +181,20 @@ fetch("./db/DiscoDB.json").then((response) => {
         console.error("Erro ao processar o JSON", error);
     });
 });
+// FIM CARROSSEL2
+
+// Função para carregar os dados do usuário
+function loadUserData() {
+    const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
+    if (usuarios.length > 0) {
+        const ultimoUsuario = usuarios[usuarios.length - 1]; // Pega o último usuário cadastrado
+        const userDisplay = document.getElementById('userDisplay');
+        userDisplay.innerHTML = `
+            <h2>Bem-vindo, ${ultimoUsuario.nome}!</h2>
+            <p>Email: ${ultimoUsuario.email}</p>
+        `;
+    }
+}
+
+// Chama a função para carregar os dados do usuário ao carregar a página
+window.onload = loadUserData;
